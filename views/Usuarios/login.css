@@ -1,0 +1,7 @@
+ body {
+   backdrop-filter: blur(10px);
+   background-color: rgb(255 255 255 / 30%);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
