@@ -1,0 +1,39 @@
+body {
+   background-color: rgba(164, 199, 237, 0.3);
+}
+
+ /* Configuração geral para desktop */
+.responsivo1 {
+  width: 90vw;
+  height: 70vh; /* Altura proporcional */
+}
+
+.responsivo2 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Mantém a proporção da imagem */
+  display: block;
+}
+
+/* Responsividade para tablets e celulares */
+@media screen and (max-width: 768px) {
+  .swiper {
+      height: 40vh; /* Reduz a altura em telas menores */
+  }
+
+  .swiper-slide img {
+      height: 100%;
+      object-fit: contain; /* Garante que a imagem caiba no container */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .swiper {
+      height: 30vh; /* Ajuste maior para celulares pequenos */
+  }
+
+  .swiper-slide img {
+      height: 100%;
+      object-fit: contain; /* Mantém a imagem visível */
+  }
+}
