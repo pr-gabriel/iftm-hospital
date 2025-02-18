@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif; 
+  background-color: #d6f2f7;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo do banner */
+.banner img {
+  width: 100%; /* Largura total do contêiner */
+  height: auto; /* Altura proporcional à largura */
+  max-width: 100%; /* Limita a altura máxima ao tamanho do banner */
+}
+
+.card {
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.card-image img {
+  border-radius: 20px 20px 20px 20px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-content p {
+  font-size: 0.9rem;
+  color: #616161;
+  
+}
